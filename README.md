@@ -1,5 +1,5 @@
 # Puppet Nginx Module Test
-## End goal
+## End goals
 Create/extend an existing puppet module for Nginx including the following functionalities:
 
 - [X] Create a proxy to redirect requests for https://domain.com to 10.10.10.10 and redirect requests for https://domain.com/resoure2 to 20.20.20.20.
