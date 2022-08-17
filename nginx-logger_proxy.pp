@@ -1,8 +1,6 @@
 include nginx
 
 class{'nginx':
-  manage_repo    => true,
-  package_source => 'nginx-mainline',
   log_format     => {
     'custom' => '$time_local - "$protocol" "$remote_addr" [$request_time]'
   },
