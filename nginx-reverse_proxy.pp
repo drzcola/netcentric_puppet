@@ -1,5 +1,3 @@
-include nginx
-
 nginx::resource::upstream {'internal_domain_com':
   ensure  => present,
   members => {
