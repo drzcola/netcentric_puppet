@@ -23,7 +23,7 @@ nginx::resource::server { 'domain.com':
 nginx::resource::location { '/resoure2':
   ensure   => present,
   ssl      => true,
-  location => '~ "^/resoure2/(.*)',
+  location => '~ "^/resoure2/(.*)"',
   server   => 'domain.com',
   proxy    => 'http://20.20.20.20'
 }
